@@ -1,25 +1,25 @@
 # Simple API Java
 
-Aplicação API 
+API Application simples em Java 21 com Spring Boot, Spring Data JPA, Spring Security e Docker.
 
-## Pré-requisitos
+## requirements
 
 - Java 21
 - Git
 - Docker
 
-## Build e execução
+## Build and run
 
 ```sh
 docker compose up --build
 ```
 
-## Testes unitários (validação)
+## Unit tests (validation)
 
 ./mvnw test
 
 
-## Documentação online (OpenAPI)
+## Online Docs (OpenAPI)
 
 http://localhost:8080/swagger-ui/index.html
 
